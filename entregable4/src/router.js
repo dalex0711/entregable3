@@ -20,6 +20,10 @@ async function loadView(path) {
             case '/':
                 import ('/src/controllers/home.js')
                 break;
+            
+            case '/dashboard':
+                import ('/src/controllers/dashboard.js')
+                break;
         
             default:
                 console.log('hola desde js')
